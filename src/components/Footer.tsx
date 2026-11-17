@@ -162,18 +162,18 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="space-y-3 text-xs text-[#A9A28E]">
               <div>
                 <span className="block text-[10px] text-[#786653] uppercase font-bold">Studio Artisans</span>
-                <span className="text-[#F7F4EE] font-medium">Devisri & Pandu</span>
+                <span className="text-[#F7F4EE] font-medium">Prasanth & Pandu</span>
               </div>
 
               <div>
-                <span className="block text-[10px] text-[#786653] uppercase font-bold">Devisri (WhatsApp / Phone)</span>
+                <span className="block text-[10px] text-[#786653] uppercase font-bold">Prasanth (WhatsApp / Phone)</span>
                 <a 
-                  href="https://wa.me/917075382343" 
+                  href="https://wa.me/917075876603" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-[#F7F4EE] hover:underline font-mono"
                 >
-                  +91 70753 82343
+                  +91 70758 76603
                 </a>
               </div>
 

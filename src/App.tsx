@@ -355,11 +355,11 @@ export function App() {
       <div className="fixed bottom-6 right-6 z-30">
         <button
           onClick={() => {
-            const url = `https://wa.me/917075382343?text=${encodeURIComponent("Hello TUFT HOUSE! I'm browsing your studio website and would like to ask a question.")}`;
+            const url = `https://wa.me/917075876603?text=${encodeURIComponent("Hello Prasanth! I'm browsing TUFT HOUSE and would like to ask a question.")}`;
             window.open(url, '_blank');
           }}
           className="flex items-center gap-2.5 px-4 py-3 bg-[#292720] text-[#EAE4D8] hover:bg-[#786653] rounded-full shadow-float border border-[#B6A18A]/30 transition-all duration-300 group hover:scale-105"
-          title="Direct Studio WhatsApp (Devisri: +91 70753 82343)"
+          title="Direct Studio WhatsApp (Prasanth: +91 70758 76603)"
         >
           <span className="w-2.5 h-2.5 rounded-full bg-[#25D366] animate-pulse" />
           <span className="text-xs uppercase tracking-wider font-semibold">

@@ -57,11 +57,11 @@ export const AboutSection: React.FC = () => {
 
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-[#292720] text-[#EAE4D8] flex items-center justify-center font-serif font-bold text-sm">
-                  D
+                  P
                 </div>
                 <div>
                   <span className="text-xs uppercase tracking-widest font-semibold text-[#292720] block">
-                    Devisri & Pandu
+                    Prasanth & Pandu
                   </span>
                   <span className="text-xs text-[#786653]">
                     Founders & Master Tufters

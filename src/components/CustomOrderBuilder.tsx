@@ -652,7 +652,7 @@ export const CustomOrderBuilder: React.FC<CustomOrderBuilderProps> = ({
                     type="tel"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    placeholder="+91 70753 82343"
+                    placeholder="+91 70758 76603"
                     className="w-full px-3.5 py-2.5 bg-white rounded-xl border border-[#B6A18A]/30 text-xs text-[#292720] placeholder-[#A9A28E] focus:outline-none focus:border-[#292720]"
                   />
                 </div>

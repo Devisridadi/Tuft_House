@@ -100,7 +100,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenCustomOrde
                   </div>
                   <div>
                     <span className="font-semibold text-[#292720] block">Studio Artisans & Founders:</span>
-                    <span className="text-[#292720]">Devisri & Pandu</span>
+                    <span className="text-[#292720]">Prasanth & Pandu</span>
                     <span className="block text-[11px] text-[#A9A28E] mt-0.5">Design consultation & bespoke commission lead</span>
                   </div>
                 </div>
@@ -125,14 +125,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenCustomOrde
                   <div className="space-y-1">
                     <span className="font-semibold text-[#292720] block">WhatsApp / Direct Calls:</span>
                     <div>
-                      <span className="text-[11px] text-[#786653] mr-1">Devisri:</span>
+                      <span className="text-[11px] text-[#786653] mr-1">Prasanth:</span>
                       <a 
-                        href="https://wa.me/917075382343" 
+                        href="https://wa.me/917075876603" 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         className="text-[#292720] hover:underline font-mono font-medium"
                       >
-                        +91 70753 82343
+                        +91 70758 76603
                       </a>
                     </div>
                     <div>
