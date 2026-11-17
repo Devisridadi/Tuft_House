@@ -88,20 +88,20 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenCustomOrde
                   TUFT HOUSE Studio
                 </h3>
                 <p className="text-xs text-[#786653] mt-1">
-                  Artisanal Hand-Tufted Textiles & Bespoke Decor • Head of Studio: <strong>Alex</strong>
+                  Artisanal Hand-Tufted Textiles & Bespoke Decor • Anakapalli, AP
                 </p>
               </div>
 
               <div className="space-y-4 text-xs text-[#786653]">
-                {/* Studio Head */}
+                {/* Studio Founders / Artisans */}
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-xl bg-[#292720] text-[#EAE4D8] flex items-center justify-center shrink-0 font-serif font-bold text-xs">
-                    A
+                    TH
                   </div>
                   <div>
-                    <span className="font-semibold text-[#292720] block">Studio Head:</span>
-                    <span className="text-[#292720]">Alex</span>
-                    <span className="block text-[11px] text-[#A9A28E] mt-0.5">Design consultation & custom commission lead</span>
+                    <span className="font-semibold text-[#292720] block">Studio Artisans & Founders:</span>
+                    <span className="text-[#292720]">Devisri & Pandu</span>
+                    <span className="block text-[11px] text-[#A9A28E] mt-0.5">Design consultation & bespoke commission lead</span>
                   </div>
                 </div>
 
@@ -112,27 +112,41 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenCustomOrde
                   </div>
                   <div>
                     <span className="font-semibold text-[#292720] block">Studio Location:</span>
-                    <span>Andhra Pradesh, India</span>
+                    <span className="text-[#292720] font-medium">Anakapalli, Andhra Pradesh, India</span>
                     <span className="block text-[11px] text-[#A9A28E] mt-0.5">Visits by prior appointment</span>
                   </div>
                 </div>
 
-                {/* WhatsApp */}
+                {/* WhatsApp & Phones */}
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-xl bg-white flex items-center justify-center shrink-0 text-[#292720]">
                     <MessageCircle className="w-4 h-4 text-[#25D366]" />
                   </div>
-                  <div>
-                    <span className="font-semibold text-[#292720] block">WhatsApp / Phone:</span>
-                    <a 
-                      href="https://wa.me/917075876603" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="text-[#292720] hover:underline font-mono font-medium"
-                    >
-                      +91 70758 76603
-                    </a>
-                    <span className="block text-[11px] text-[#A9A28E] mt-0.5">Direct chat with Alex for design reviews</span>
+                  <div className="space-y-1">
+                    <span className="font-semibold text-[#292720] block">WhatsApp / Direct Calls:</span>
+                    <div>
+                      <span className="text-[11px] text-[#786653] mr-1">Devisri:</span>
+                      <a 
+                        href="https://wa.me/917075382343" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-[#292720] hover:underline font-mono font-medium"
+                      >
+                        +91 70753 82343
+                      </a>
+                    </div>
+                    <div>
+                      <span className="text-[11px] text-[#786653] mr-1">Pandu:</span>
+                      <a 
+                        href="https://wa.me/917207209932" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-[#292720] hover:underline font-mono font-medium"
+                      >
+                        +91 72072 09932
+                      </a>
+                    </div>
+                    <span className="block text-[11px] text-[#A9A28E] mt-0.5">Direct chat for design reviews & quotes</span>
                   </div>
                 </div>
 
@@ -143,8 +157,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenCustomOrde
                   </div>
                   <div>
                     <span className="font-semibold text-[#292720] block">Email Inquiries:</span>
-                    <a href="mailto:prasanthgraphicdesigne@gmail.com" className="text-[#292720] hover:underline font-mono">
-                      prasanthgraphicdesigne@gmail.com
+                    <a href="mailto:prasanthgraphicdesigner@gmail.com" className="text-[#292720] hover:underline font-mono">
+                      prasanthgraphicdesigner@gmail.com
                     </a>
                   </div>
                 </div>
@@ -283,7 +297,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenCustomOrde
                         type="tel"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
-                        placeholder="+91 70758 76603"
+                        placeholder="+91 70753 82343"
                         className="w-full px-3.5 py-2.5 bg-[#F7F4EE] rounded-xl border border-[#B6A18A]/30 text-xs text-[#292720] placeholder-[#A9A28E] focus:outline-none focus:border-[#292720]"
                       />
                     </div>

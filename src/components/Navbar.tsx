@@ -97,7 +97,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     TUFT HOUSE
                   </span>
                   <span className="text-[9px] uppercase tracking-[0.25em] text-[#786653] font-medium block mt-0.5">
-                    Studio • Andhra Pradesh
+                    Studio • Anakapalli, Andhra Pradesh
                   </span>
                 </div>
               </button>

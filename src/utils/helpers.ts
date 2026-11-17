@@ -9,10 +9,12 @@ export const formatINR = (amount: number): string => {
   }).format(amount);
 };
 
-export const STUDIO_WHATSAPP_NUMBER = '917075876603'; // Studio WhatsApp in Andhra Pradesh
-export const STUDIO_PHONE_DISPLAY = '+91 70758 76603';
-export const STUDIO_EMAIL = 'prasanthgraphicdesigne@gmail.com';
-export const STUDIO_HEAD = 'Alex';
+export const STUDIO_WHATSAPP_NUMBER = '917075382343'; // Studio WhatsApp
+export const STUDIO_PHONE_DISPLAY = '+91 70753 82343';
+export const STUDIO_SECONDARY_PHONE = '+91 72072 09932';
+export const STUDIO_EMAIL = 'prasanthgraphicdesigner@gmail.com';
+export const STUDIO_LOCATION = 'Anakapalli, Andhra Pradesh';
+export const STUDIO_HEAD = 'Devisri';
 
 export const generateWhatsAppLink = (message: string): string => {
   const encoded = encodeURIComponent(message);

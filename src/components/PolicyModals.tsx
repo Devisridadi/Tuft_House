@@ -18,7 +18,7 @@ export const PolicyModal: React.FC<PolicyModalProps> = ({ type, onClose }) => {
 1. Information Collected: We collect your name, email, phone number, delivery address, and any custom design artwork or photographs you provide for custom tufting commissions.
 2. How We Use It: Your details are used strictly to communicate custom quotations, provide production updates via WhatsApp, coordinate courier shipping, and deliver your orders.
 3. Data Security: We never sell, rent, or disclose your personal details or proprietary logo designs to third parties. Uploaded sketches and reference artworks remain your intellectual property.
-4. Contact: For privacy questions, please email prasanthgraphicdesigne@gmail.com or WhatsApp +91 70758 76603.`
+4. Contact: For privacy questions, please email prasanthgraphicdesigner@gmail.com or WhatsApp +91 70753 82343.`
     },
     terms: {
       title: 'Terms & Conditions',

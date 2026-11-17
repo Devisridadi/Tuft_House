@@ -47,7 +47,7 @@ export const StudioAdminModal: React.FC<StudioAdminModalProps> = ({
 
   const handleSendQuotationWhatsApp = (quote: CustomOrderRequest) => {
     const quotePrice = quotePriceInput ? `₹${quotePriceInput}` : (quote.estimatedPriceRange || '₹12,500');
-    const msg = `Hello ${quote.customerName}! 🌿\nThis is Alex from TUFT HOUSE Studio (Andhra Pradesh).\n\nWe have reviewed your custom request *#${quote.id}* for the *${quote.category}* (${quote.dimensions}).\n\n*Our Bespoke Quotation:* ${quotePrice}\n*Estimated Handcrafting Lead Time:* ${leadDaysInput} business days\n*Yarn Specification:* High-density New Zealand wool & acrylic blend with hand-carved ${quote.pileStyle} finish.\n\n${artisanNotesInput ? `*Artisan Note:* ${artisanNotesInput}\n\n` : ''}Would you like us to generate the primary canvas blueprint and finalize your order?`;
+    const msg = `Hello ${quote.customerName}! 🌿\nThis is TUFT HOUSE Studio (Anakapalli, Andhra Pradesh).\n\nWe have reviewed your custom request *#${quote.id}* for the *${quote.category}* (${quote.dimensions}).\n\n*Our Bespoke Quotation:* ${quotePrice}\n*Estimated Handcrafting Lead Time:* ${leadDaysInput} business days\n*Yarn Specification:* High-density New Zealand wool & acrylic blend with hand-carved ${quote.pileStyle} finish.\n\n${artisanNotesInput ? `*Artisan Note:* ${artisanNotesInput}\n\n` : ''}Would you like us to generate the primary canvas blueprint and finalize your order?`;
     
     // Clean phone number
     const cleanPhone = quote.phone.replace(/[^0-9]/g, '');

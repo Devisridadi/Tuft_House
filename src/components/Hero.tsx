@@ -9,7 +9,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onExplore, onCustom, onSelectProduct }) => {
   return (
-    <section className="relative pt-24 sm:pt-28 pb-16 sm:pb-24 overflow-hidden bg-[#F7F4EE]">
+    <section className="relative pt-36 sm:pt-44 lg:pt-48 pb-16 sm:pb-24 overflow-hidden bg-[#F7F4EE]">
       {/* Background Architectural Glow */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[450px] bg-[#EAE4D8]/60 rounded-full blur-3xl pointer-events-none -z-10" />
 
@@ -21,7 +21,7 @@ export const Hero: React.FC<HeroProps> = ({ onExplore, onCustom, onSelectProduct
             <Sparkles className="w-3.5 h-3.5 text-[#C49746]" />
             <span>Independent Fiber Art Studio</span>
             <span className="w-1 h-1 rounded-full bg-[#786653]" />
-            <span>Made in Andhra Pradesh</span>
+            <span>Made in Anakapalli, Andhra Pradesh</span>
           </div>
 
           {/* Main Headline */}

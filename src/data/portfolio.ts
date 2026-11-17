@@ -21,7 +21,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: 'wedding',
     categoryLabel: 'Wedding Keepsakes',
     client: 'Private Couple Commission',
-    location: 'Bespoke Studio Order',
+    location: 'Anakapalli, Andhra Pradesh',
     year: '2026',
     dimensions: '14 in × 18 in (35 cm × 45 cm)',
     description: 'A whimsical handmade punch needle couple portrait featuring the bride in white veil with floral tiara and the groom in a classic tuxedo. Hand-punched on natural unbleached monks cloth and stretched onto a solid artist wooden frame for the wedding reception welcome desk.',

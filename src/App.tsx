@@ -24,9 +24,9 @@ const INITIAL_DEMO_QUOTES: CustomOrderRequest[] = [
   {
     id: 'TH-2026-8492',
     createdAt: new Date(Date.now() - 3600000 * 5).toISOString(),
-    customerName: 'Ananya Sharma',
-    email: 'ananya.s@gmail.com',
-    phone: '+91 98480 12345',
+    customerName: 'Devisri',
+    email: 'devisri@gmail.com',
+    phone: '+91 70753 82343',
     category: 'Wedding & Celebrations',
     dimensions: '4 × 4 ft (Mandap Circle)',
     dimensionUnit: 'feet',
@@ -35,8 +35,8 @@ const INITIAL_DEMO_QUOTES: CustomOrderRequest[] = [
     quantity: 1,
     requiredDeliveryDate: '2026-12-15',
     budgetRange: '₹10,000 – ₹20,000',
-    description: 'Looking for a floral mandala stage mat for our Haldi ceremony in Hyderabad with our initials "A & R" carved in the outer ring.',
-    customText: 'A & R • 15.12.2026',
+    description: 'Looking for a floral mandala stage mat for our Haldi ceremony in Anakapalli with custom couple lettering carved in the outer ring.',
+    customText: 'Devisri • 2026',
     referenceImage: '/images/wedding-haldi-mat.jpg',
     status: 'new',
     estimatedPriceRange: '₹12,500 – ₹15,000'
@@ -44,9 +44,9 @@ const INITIAL_DEMO_QUOTES: CustomOrderRequest[] = [
   {
     id: 'TH-2026-7219',
     createdAt: new Date(Date.now() - 3600000 * 24).toISOString(),
-    customerName: 'Kunal Mathur',
-    email: 'kunal@greatboss.io',
-    phone: '+91 99887 66554',
+    customerName: 'Pandu',
+    email: 'pandu@gmail.com',
+    phone: '+91 72072 09932',
     category: 'Brand & Promotional Art',
     dimensions: '3.5 × 3.5 ft Round',
     dimensionUnit: 'feet',
@@ -55,8 +55,8 @@ const INITIAL_DEMO_QUOTES: CustomOrderRequest[] = [
     quantity: 2,
     requiredDeliveryDate: '2026-11-30',
     budgetRange: '₹15,000 – ₹25,000',
-    description: 'Circular brand emblem for our new YouTube podcast studio in Bengaluru. High foot traffic wear resistant with our bee mascot.',
-    customText: 'GREAT BOSS',
+    description: 'Circular brand emblem for studio in Anakapalli, Andhra Pradesh. High foot traffic wear resistant with mascot.',
+    customText: 'PANDU CREATIVE',
     referenceImage: '/images/collection-brand.jpg',
     status: 'quoted',
     estimatedPriceRange: '₹16,800',
@@ -77,7 +77,7 @@ export function App() {
 
   const [quotes, setQuotes] = useState<CustomOrderRequest[]>(() => {
     try {
-      const saved = localStorage.getItem('tufthouse_quotes');
+      const saved = localStorage.getItem('tufthouse_quotes_v2');
       return saved ? JSON.parse(saved) : INITIAL_DEMO_QUOTES;
     } catch {
       return INITIAL_DEMO_QUOTES;
@@ -107,7 +107,7 @@ export function App() {
   // Sync quotes to localStorage
   useEffect(() => {
     try {
-      localStorage.setItem('tufthouse_quotes', JSON.stringify(quotes));
+      localStorage.setItem('tufthouse_quotes_v2', JSON.stringify(quotes));
     } catch {
       // ignore
     }
@@ -238,7 +238,7 @@ export function App() {
 
         {/* SHOP VIEW: Dedicated full catalog */}
         {activeTab === 'shop' && (
-          <div className="pt-20">
+          <div className="pt-28 sm:pt-36">
             <ShopSection
               onQuickView={(p) => setQuickViewProduct(p)}
               onAddToCart={(p) => handleAddToCart(p)}
@@ -248,7 +248,7 @@ export function App() {
 
         {/* CUSTOM CREATIONS VIEW ("Create Your Own") */}
         {activeTab === 'custom' && (
-          <div className="pt-20">
+          <div className="pt-28 sm:pt-36">
             <CustomOrderBuilder
               initialCategory={customInitialCategory}
               onSaveQuoteToStorage={handleSaveQuote}
@@ -258,7 +258,7 @@ export function App() {
 
         {/* COLLECTIONS VIEW: Editorial deep dive */}
         {activeTab === 'collections' && (
-          <div className="pt-20">
+          <div className="pt-28 sm:pt-36">
             <FeaturedCollections
               onSelectCollection={(colId) => {
                 setActiveTab('shop');
@@ -272,7 +272,7 @@ export function App() {
 
         {/* PORTFOLIO / OUR WORK VIEW */}
         {activeTab === 'portfolio' && (
-          <div className="pt-20">
+          <div className="pt-28 sm:pt-36">
             <PortfolioGallery
               onOpenCustomWithInspiration={(title, cat) => handleOpenCustomWithCategory(cat)}
             />
@@ -281,7 +281,7 @@ export function App() {
 
         {/* ABOUT US VIEW */}
         {activeTab === 'about' && (
-          <div className="pt-20">
+          <div className="pt-28 sm:pt-36">
             <AboutSection />
             <CraftsmanshipSpotlight />
             <ReviewsSection />
@@ -290,7 +290,7 @@ export function App() {
 
         {/* CONTACT VIEW */}
         {activeTab === 'contact' && (
-          <div className="pt-20">
+          <div className="pt-28 sm:pt-36">
             <ContactSection onOpenCustomOrder={() => handleOpenCustomWithCategory('custom')} />
           </div>
         )}
@@ -355,11 +355,11 @@ export function App() {
       <div className="fixed bottom-6 right-6 z-30">
         <button
           onClick={() => {
-            const url = `https://wa.me/917075876603?text=${encodeURIComponent("Hello Alex! I'm browsing TUFT HOUSE and would like to ask a question.")}`;
+            const url = `https://wa.me/917075382343?text=${encodeURIComponent("Hello TUFT HOUSE! I'm browsing your studio website and would like to ask a question.")}`;
             window.open(url, '_blank');
           }}
           className="flex items-center gap-2.5 px-4 py-3 bg-[#292720] text-[#EAE4D8] hover:bg-[#786653] rounded-full shadow-float border border-[#B6A18A]/30 transition-all duration-300 group hover:scale-105"
-          title="Direct Studio WhatsApp with Alex"
+          title="Direct Studio WhatsApp (Devisri: +91 70753 82343)"
         >
           <span className="w-2.5 h-2.5 rounded-full bg-[#25D366] animate-pulse" />
           <span className="text-xs uppercase tracking-wider font-semibold">

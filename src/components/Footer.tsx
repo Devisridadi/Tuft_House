@@ -61,13 +61,13 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
 
             <p className="text-xs sm:text-sm text-[#A9A28E] leading-relaxed max-w-sm font-light">
-              A premium creative tufting studio in Andhra Pradesh, India specialising in handcrafted, 
+              A premium creative tufting studio in Anakapalli, Andhra Pradesh, India specialising in handcrafted, 
               personalised and customised tufted rugs, wedding ceremonial mats, logo carpets, and tactile interior accents.
             </p>
 
             <div className="pt-2 flex items-center gap-3 text-xs text-[#B6A18A]">
               <MapPin className="w-4 h-4 shrink-0 text-[#C49746]" />
-              <span>Led by Studio Head Alex • Handcrafted in Andhra Pradesh, India 🇮🇳</span>
+              <span>Handcrafted in Anakapalli, Andhra Pradesh, India 🇮🇳</span>
             </div>
           </div>
 
@@ -161,26 +161,38 @@ export const Footer: React.FC<FooterProps> = ({
             </h4>
             <div className="space-y-3 text-xs text-[#A9A28E]">
               <div>
-                <span className="block text-[10px] text-[#786653] uppercase font-bold">Studio Head</span>
-                <span className="text-[#F7F4EE] font-medium">Alex</span>
+                <span className="block text-[10px] text-[#786653] uppercase font-bold">Studio Artisans</span>
+                <span className="text-[#F7F4EE] font-medium">Devisri & Pandu</span>
               </div>
 
               <div>
-                <span className="block text-[10px] text-[#786653] uppercase font-bold">Studio WhatsApp / Phone</span>
+                <span className="block text-[10px] text-[#786653] uppercase font-bold">Devisri (WhatsApp / Phone)</span>
                 <a 
-                  href="https://wa.me/917075876603" 
+                  href="https://wa.me/917075382343" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-[#F7F4EE] hover:underline font-mono"
                 >
-                  +91 70758 76603
+                  +91 70753 82343
+                </a>
+              </div>
+
+              <div>
+                <span className="block text-[10px] text-[#786653] uppercase font-bold">Pandu (WhatsApp / Phone)</span>
+                <a 
+                  href="https://wa.me/917207209932" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#F7F4EE] hover:underline font-mono"
+                >
+                  +91 72072 09932
                 </a>
               </div>
 
               <div>
                 <span className="block text-[10px] text-[#786653] uppercase font-bold">Email</span>
-                <a href="mailto:prasanthgraphicdesigne@gmail.com" className="text-[#F7F4EE] hover:underline font-mono">
-                  prasanthgraphicdesigne@gmail.com
+                <a href="mailto:prasanthgraphicdesigner@gmail.com" className="text-[#F7F4EE] hover:underline font-mono">
+                  prasanthgraphicdesigner@gmail.com
                 </a>
               </div>
 

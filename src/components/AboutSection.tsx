@@ -27,7 +27,7 @@ export const AboutSection: React.FC = () => {
                 they should evoke warmth, tell stories, and invite you to reach out and touch them.
               </p>
               <p>
-                Founded in Andhra Pradesh, India, our studio was born out of a deep reverence for the tactile 
+                Founded in Anakapalli, Andhra Pradesh, India, our studio was born out of a deep reverence for the tactile 
                 beauty of tufting: the rhythmic punch of yarn into monks cloth, the rich scent of natural latex 
                 curing on cotton backing, and the meditative sculpting of 3D bevels with electric shears.
               </p>
@@ -50,21 +50,21 @@ export const AboutSection: React.FC = () => {
                     Studio & Atelier Location
                   </span>
                   <span className="text-xs text-[#786653]">
-                    Andhra Pradesh, India — Shipping Worldwide
+                    Anakapalli, Andhra Pradesh, India — Shipping Worldwide
                   </span>
                 </div>
               </div>
 
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-[#292720] text-[#EAE4D8] flex items-center justify-center font-serif font-bold text-sm">
-                  A
+                  D
                 </div>
                 <div>
                   <span className="text-xs uppercase tracking-widest font-semibold text-[#292720] block">
-                    Alex
+                    Devisri & Pandu
                   </span>
                   <span className="text-xs text-[#786653]">
-                    Studio Head & Lead Artisan
+                    Founders & Master Tufters
                   </span>
                 </div>
               </div>
